@@ -9,6 +9,12 @@ body {
     font-family: 'Gilroy', sans-serif;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: 'Gilroy';
     src: url('Gilroy-Medium.eot');
@@ -29,19 +35,42 @@ body {
     font-display: swap;
 }
 
-.about__me{
-    width: 945px;
+body {
+    font-family: 'Gilroy', sans-serif;
+ }
+
+img {
+    max-width: 100%;
+ }
+
+ .container {
+    max-width: 936px;
+    margin: 0 auto;
 }
 
-.about__me__column{
+
+
+.about__title{
+    width: 123px;
+    font-size: 47px;
+    line-height: 59px;
+}
+
+.about__column{
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 47px;
+}
+
+.about__text--lang {
+    transform: rotate(180deg);
+    /* align-self: flex-start; */
+    writing-mode: vertical-lr;
 }
 .header {
-    width: 945px;
-    padding: 30px 0;
-    margin: 0 auto;
-    border-bottom: 1px solid #828282;
+    padding-top: 30px;
+    margin-bottom: 30px; 
 }
 
 .header__list {
@@ -49,12 +78,12 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    border-bottom: 1px solid #828282;
+    padding-bottom: 37px;
 }
 
 .skill {
-    width: 936px;
     padding: 92px 0 110px;
-    margin: 0 auto;
 }
 
 .skill__title {
@@ -113,16 +142,11 @@ body {
 .program__star {
     width: 26px;
     height: 26px;
-    background: url("../img/star.svg") no-repeat center center;
+    background: url("img/star.svg") no-repeat center center;
 }
 
 .program__star--light {
-    background: url("../img/star-tr.svg") no-repeat center center;
-}
-
- .container {
-    max-width: 936px;
-    margin: 0 auto;
+    background: url("img/star-tr.svg") no-repeat center center;
 }
 
 .portfolio {
@@ -148,7 +172,7 @@ body {
     color: #070707;
     text-align: center;
 }
-   
+
 .header__item {
     list-style: none;
 }
@@ -169,6 +193,7 @@ a {
     font-size: 18px;
 }
 
+
 .portfolio__img {
     margin-bottom: 38px;
 }
@@ -178,6 +203,7 @@ a {
     height: auto;
     text-align: center;
     padding-top: 114px;
+    padding-bottom: 114px;
 }
 
 .footer__header {
