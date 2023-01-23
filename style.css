@@ -153,10 +153,6 @@ body {
     list-style: none;
 }
 
-.header__item:not(:last-child) {
-    margin-right: 52px;
-}
-
 a {
     text-decoration: none;
 }
