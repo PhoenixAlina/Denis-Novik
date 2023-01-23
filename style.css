@@ -6,6 +6,7 @@
 
 body {
     margin: 0;
+    font-family: 'Gilroy', sans-serif;
 }
 
 @font-face {
@@ -28,11 +29,6 @@ body {
     font-display: swap;
 }
 
-body {
-    font-family: 'Gilroy', sans-serif;
-    font-family: 'Gilroy';
-
- }
 .about__me{
     width: 945px;
 }
