@@ -1,8 +1,12 @@
-body{
+* {
     margin: 0;
-    padding: 0 15px;
-    background-color: #ffffff;
-    color:#000000;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Gilroy', sans-serif;
 }
 
 * {
@@ -33,14 +37,19 @@ body{
 
  body {
     font-family: 'Gilroy', sans-serif;
-    font-family: 'Gilroy';
-
  }
-.about__me{
-    width: 944px;
+.about{
+    max-width: 944px;
+    margin: 0 auto;
+    text-align: center;
 }
-
-.about__me__column{
+.about__me{
+    width: 945px;
+}
+.about__title{
+    width: 124px;
+}
+.about__column{
     display: flex;
     justify-content: space-between;
 }
@@ -51,7 +60,7 @@ body{
     border-bottom: 1px solid #828282;
 }
 
-.header_list {
+.header__list {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -155,26 +164,22 @@ body{
     color: #070707;
     text-align: center;
 }
-   
-.header_item{
-    list-style: none;
-}
 
-.header_item:not(:last-child) {
-    margin-right: 52px;
+.header__item {
+    list-style: none;
 }
 
 a {
     text-decoration: none;
 }
 
-.header_link-bold {
+.header__link--active {
     font-weight: bold;
     color: #000;
     font-size: 18px;
 }
 
-.header_link-normal {
+.header__link--normal {
     font-weight: normal;
     color: #828282;
     font-size: 18px;
