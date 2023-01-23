@@ -26,6 +26,75 @@
     font-family: 'Gilroy';
  }
 
+.skill {
+    width: 936px;
+    padding: 92px 0 110px;
+    margin: 0 auto;
+}
+
+.skill__title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.skill__text {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 89px;
+}
+
+.skill__list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.program {
+    display: flex;
+    flex-direction: column;
+    width: 166px;
+}
+
+.program__image {
+    display: block;
+    width: 90px;
+    height: 89px;
+    margin: 0 auto;
+    margin-bottom: 19px;
+}
+
+.program__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.program__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: auto;
+}
+
+.program__star {
+    width: 26px;
+    height: 26px;
+    background: url("../img/star.svg") no-repeat center center;
+}
+
+.program__star--light {
+    background: url("../img/star-tr.svg") no-repeat center center;
+}
+
  .container {
     max-width: 936px;
     margin: 0 auto;
