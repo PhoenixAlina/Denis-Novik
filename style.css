@@ -29,29 +29,42 @@ body {
     font-display: swap;
 }
 
- body {
+body {
     font-family: 'Gilroy', sans-serif;
  }
-.about{
-    max-width: 944px;
+
+img {
+    max-width: 100%;
+ }
+
+ .container {
+    max-width: 936px;
     margin: 0 auto;
-    text-align: center;
 }
-.about__me{
-    width: 945px;
-}
+
+
+
 .about__title{
-    width: 124px;
+    width: 123px;
+    font-size: 47px;
+    line-height: 59px;
 }
+
 .about__column{
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 47px;
+}
+
+.about__text--lang {
+    transform: rotate(180deg);
+    /* align-self: flex-start; */
+    writing-mode: vertical-lr;
 }
 .header {
-    width: 945px;
-    padding: 30px 0;
-    margin: 0 auto;
-    border-bottom: 1px solid #828282;
+    padding-top: 30px;
+    margin-bottom: 30px; 
 }
 
 .header__list {
@@ -59,12 +72,12 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    border-bottom: 1px solid #828282;
+    padding-bottom: 37px;
 }
 
 .skill {
-    width: 936px;
     padding: 92px 0 110px;
-    margin: 0 auto;
 }
 
 .skill__title {
@@ -130,11 +143,6 @@ body {
     background: url("../img/star-tr.svg") no-repeat center center;
 }
 
- .container {
-    max-width: 936px;
-    margin: 0 auto;
-}
-
 .portfolio {
     background-color: #F6F6F6;
     padding: 106px 0 96px;
@@ -167,17 +175,19 @@ a {
     text-decoration: none;
 }
 
+.header__link {
+    font-weight: normal;
+    color: #828282;
+    font-size: 18px;
+}
+
 .header__link--active {
     font-weight: bold;
     color: #000;
     font-size: 18px;
 }
 
-.header__link--normal {
-    font-weight: normal;
-    color: #828282;
-    font-size: 18px;
-}
+
 .portfolio__img {
     margin-bottom: 38px;
 }
