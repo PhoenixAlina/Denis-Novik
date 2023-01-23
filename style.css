@@ -165,3 +165,46 @@ a {
 .portfolio__img {
     margin-bottom: 38px;
 }
+
+.footer {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 114px;
+}
+
+.footer__header {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.footer__text {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer__button {
+    margin-top: 30px;
+    margin-bottom: 85px;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 25px;
+    width:180.5px;
+    height:42px;
+    cursor: pointer;
+}
+
+.footer__social {
+    margin-right: auto;
+    margin-bottom: 46px;
+    margin-left: auto;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 343px;
+}
+
+.footer__img {
+    width: 40px;
+    height: 40px;
+}
