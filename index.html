@@ -13,33 +13,30 @@
 </head>
 <body>
    <header class="header">
+    <div class="container">
         <ul class="header__list">
             <li class="header__item"><a href="#home" class="header__link header__link--active">Home</a></li>
-            <li class="header__item"><a href="#skill" class="header__link header__link--normal">Skills</a></li>
-            <li class="header__item"><a href="#portfolio" class="header__link header__link--normal">Portfolio</a></li>
-            <li class="header__item"><a href="#footer" class="header__link header__link--normal">Contacts</a></li>
+            <li class="header__item"><a href="#about-me" class="header__link">About me</a></li>
+            <li class="header__item"><a href="#skill" class="header__link">Skills</a></li>
+            <li class="header__item"><a href="#portfolio" class="header__link">Portfolio</a></li>
+            <li class="header__item"><a href="#footer" class="header__link">Contacts</a></li>
         </ul>
+    </div>
    </header>
-   <div id="About me" class="about">
+   <main>
+   <section id="About me" class="about">
+    <div class="container">
     <div class="about__column">
         <h1 class="about__title">Denis Novik</h1>
         <p class="about__text">UX | UI designer<br>
            24 years old, Minsk</p>
-        <p class="about__text">RU | ENG</p>
+        <p class="about__text about__text--lang">RU | ENG</p>
     </div>
     <img class="about__me" src="img/background.jpg" width="944" height="388" alt="человек.">
 </div>
-   <section class="skill">
-   <div class="about__me" id="about-me">
-    <div class="about__me__column">
-        <p class="about__me__text">Denis Novik</p>
-        <p class="about__me__text">UX | UI designer<br>
-           24 years old, Minsk</p>
-        <p class="about__me__text">RU | ENG</p>
-    </div>
-    </div>
-   </section>
-   <section class="skill" id="skill">
+</section>
+<section class="skill" id="skill">
+    <div class="container">
         <h2 class="skill__title">Skills</h2>
         <p class="skill__text">I work in such programs as</p>
         <ul class="skill__list">
@@ -88,6 +85,7 @@
                 </ul>
             </li>
         </ul>
+    </div>
    </section>
    <section class="portfolio" id="Portfolio">
     <div class="container">
@@ -106,7 +104,9 @@
         </div>
     </div>
 </section>
+</main>
 <footer id="footer" class="footer">
+    <div class="container">
     <h2 class="footer__header">Contacts</h2>
     <p class="footer__text">
         Want to know more or just chat?
@@ -127,6 +127,7 @@
     <p class="footer__text">
         LinkedIn, Instagram, Behance, Dribble
     </p>
+</div>
 </footer>
 </body>
 </html>
