@@ -129,11 +129,11 @@ body {
 .program__star {
     width: 26px;
     height: 26px;
-    background: url("../img/star.svg") no-repeat center center;
+    background: url("img/star.svg") no-repeat center center;
 }
 
 .program__star--light {
-    background: url("../img/star-tr.svg") no-repeat center center;
+    background: url("img/star-tr.svg") no-repeat center center;
 }
 
  .container {
