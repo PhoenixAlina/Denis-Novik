@@ -32,25 +32,26 @@ body {
  body {
     font-family: 'Gilroy', sans-serif;
  }
+
 .about{
-    max-width: 944px;
-    margin: 0 auto;
     text-align: center;
 }
+
 .about__me{
     width: 945px;
 }
+
 .about__title{
     width: 124px;
 }
+
 .about__column{
     display: flex;
     justify-content: space-between;
 }
+
 .header {
-    width: 945px;
     padding: 30px 0;
-    margin: 0 auto;
     border-bottom: 1px solid #828282;
 }
 
@@ -123,11 +124,11 @@ body {
 .program__star {
     width: 26px;
     height: 26px;
-    background: url("../img/star.svg") no-repeat center center;
+    background: url("img/star.svg") no-repeat center center;
 }
 
 .program__star--light {
-    background: url("../img/star-tr.svg") no-repeat center center;
+    background: url("img/star-tr.svg") no-repeat center center;
 }
 
  .container {
