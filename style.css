@@ -1,7 +1,8 @@
-* {
+body{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    padding: 0 15px;
+    background-color: #ffffff;
+    color:#000000;
 }
 
 @font-face {
@@ -11,6 +12,7 @@
         url('fonts/Gilroy-Medium.woff2') format('woff2');
     font-weight: 500;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -20,9 +22,17 @@
         url('fonts/Gilroy-Bold.woff2') format('woff2');
     font-weight: bold;
     font-style: normal;
+    font-display: swap;
 }
 
  body {
-    font-family: 'Gilroy';
+    font-family: 'Gilroy', sans-serif;
  }
+.about__me{
+    width: 944px;
+}
 
+.about__me__column{
+    display: flex;
+    justify-content: space-between;
+}
