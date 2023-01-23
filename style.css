@@ -27,14 +27,16 @@ body{
 
  body {
     font-family: 'Gilroy', sans-serif;
-    font-family: 'Gilroy';
-
  }
-.about__me{
-    width: 944px;
+.about{
+    max-width: 944px;
+    margin: 0 auto;
+    text-align: center;
 }
-
-.about__me__column{
+.about__title{
+    width: 124px;
+}
+.about__column{
     display: flex;
     justify-content: space-between;
 }
