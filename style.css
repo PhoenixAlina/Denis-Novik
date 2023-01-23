@@ -26,3 +26,35 @@
     font-family: 'Gilroy';
  }
 
+ .container {
+    max-width: 936px;
+    margin: 0 auto;
+}
+
+.portfolio {
+    background-color: #F6F6F6;
+    padding: 106px 0 96px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 55px;
+    font-size: 34px;
+    line-height: 42px;
+}
+
+.portfolio__card {
+    margin-bottom: 103px;
+}
+
+.portfolio__link {
+    display: block;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    text-align: center;
+}
+
+.portfolio__img {
+    margin-bottom: 38px;
+}
