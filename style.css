@@ -34,7 +34,7 @@
     border-bottom: 1px solid #828282;
 }
 
-.header_list {
+.header__list {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -139,11 +139,11 @@
     text-align: center;
 }
    
-.header_item{
+.header__item{
     list-style: none;
 }
 
-.header_item:not(:last-child) {
+.header__item:not(:last-child) {
     margin-right: 52px;
 }
 
@@ -151,13 +151,13 @@ a {
     text-decoration: none;
 }
 
-.header_link-bold {
+.header__link-bold {
     font-weight: bold;
     color: #000;
     font-size: 18px;
 }
 
-.header_link-normal {
+.header__link-normal {
     font-weight: normal;
     color: #828282;
     font-size: 18px;
