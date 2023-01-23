@@ -165,12 +165,16 @@ img {
     margin-bottom: 103px;
 }
 
-.portfolio__link {
-    display: block;
+.portfolio__item-title {
     font-size: 18px;
     line-height: 22px;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.portfolio__link {
     color: #070707;
-    text-align: center;
+    text-decoration: underline;
 }
 
 .header__item {
@@ -181,17 +185,20 @@ a {
     text-decoration: none;
 }
 
-.header__link--active {
-    font-weight: bold;
-    color: #000;
-    font-size: 18px;
-}
+
 
 .header__link {
     font-weight: normal;
     color: #828282;
     font-size: 18px;
 }
+
+.header__link--active {
+    font-weight: bold;
+    color: #000;
+    font-size: 18px;
+}
+
 .portfolio__img {
     margin-bottom: 38px;
 }
