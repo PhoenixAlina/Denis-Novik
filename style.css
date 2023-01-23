@@ -185,6 +185,12 @@ a {
     text-decoration: none;
 }
 
+.header__link {
+    font-weight: normal;
+    color: #828282;
+    font-size: 18px;
+}
+
 
 
 .header__link {
