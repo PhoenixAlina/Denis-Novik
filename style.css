@@ -153,21 +153,17 @@ body {
     list-style: none;
 }
 
-.header__item:not(:last-child) {
-    margin-right: 52px;
-}
-
 a {
     text-decoration: none;
 }
 
-.header__link-bold {
+.header__link--active {
     font-weight: bold;
     color: #000;
     font-size: 18px;
 }
 
-.header__link-normal {
+.header__link--normal {
     font-weight: normal;
     color: #828282;
     font-size: 18px;
