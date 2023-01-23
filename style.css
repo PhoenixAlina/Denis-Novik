@@ -1,4 +1,10 @@
-body{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     margin: 0;
 }
 
@@ -22,13 +28,13 @@ body{
     font-display: swap;
 }
 
- body {
+body {
     font-family: 'Gilroy', sans-serif;
     font-family: 'Gilroy';
 
  }
 .about__me{
-    width: 944px;
+    width: 945px;
 }
 
 .about__me__column{
@@ -147,7 +153,7 @@ body{
     text-align: center;
 }
    
-.header__item{
+.header__item {
     list-style: none;
 }
 
