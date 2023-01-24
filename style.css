@@ -255,9 +255,21 @@ a {
     margin-top: auto;
 }
 
-.footer__img {
+.footer__link {
+    display: inline-block;
     width: 40px;
     height: 40px;
+}
+
+.footer__pic {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+.footer__img {
+    display: block;
+    object-fit: fill;
 }
 
 .footer__link:not(:last-child) {
