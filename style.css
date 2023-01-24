@@ -34,7 +34,7 @@ img {
     max-width: 100%;
  }
 
- .container {
+.container {
     max-width: 936px;
     margin: 0 auto;
 }
@@ -46,10 +46,6 @@ img {
 
 .about__me__text {
     width: 155px;
-}
-
-.about__text--form {
-    font-weight: bold;
 }
 
 .about__column{
@@ -138,11 +134,11 @@ img {
 .program__star {
     width: 26px;
     height: 26px;
-    background: url("../img/star.svg") no-repeat center center;
+    background: url("img/star.svg") no-repeat center center;
 }
 
 .program__star--light {
-    background: url("../img/star-tr.svg") no-repeat center center;
+    background: url("img/star-tr.svg") no-repeat center center;
 }
 
 .portfolio {
@@ -208,7 +204,7 @@ a {
 
 .footer__text {
     font-size: 18px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .footer__text--small {
