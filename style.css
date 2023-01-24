@@ -255,16 +255,12 @@ a {
     cursor: pointer;
     font-size: 18px;
     font-weight: bold;
-<<<<<<< HEAD
-    transition: box-shadow .2s linear;
-=======
     transition: 0.5s;
 }
 
 .footer__button:hover {
     color: black;
     background-color: white;
->>>>>>> b6ab216417e8695a7cbe6abbe17255875c15e3b0
 }
 
 .footer__social {
@@ -300,7 +296,6 @@ a {
     margin-right: 55px;
 }
 
-<<<<<<< HEAD
 .form {
     display: flex;
     flex-direction: column;
@@ -325,8 +320,7 @@ a {
 .input:hover,
 .footer__button:hover {
     box-shadow: 0 0 3px 3px gray;
-=======
+}
 .footer__text--social {
     margin-bottom: 50px;
->>>>>>> b6ab216417e8695a7cbe6abbe17255875c15e3b0
 }
