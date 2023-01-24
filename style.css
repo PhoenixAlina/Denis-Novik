@@ -66,7 +66,7 @@ img {
 }
 .header {
     padding-top: 30px;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
 }
 
 .header__list {
@@ -187,8 +187,6 @@ a {
     font-size: 18px;
 }
 
-
-
 .header__link {
     font-weight: normal;
     color: #828282;
@@ -208,9 +206,11 @@ a {
 .footer {
     width: 100%;
     height: auto;
-    text-align: center;
     padding-top: 114px;
     padding-bottom: 114px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .footer__header {
@@ -246,12 +246,13 @@ a {
     margin-bottom: 35px;
     margin-left: auto;
     margin-top: auto;
-    display: flex;
-    justify-content: space-between;
-    width: 343px;
 }
 
 .footer__img {
     width: 40px;
     height: 40px;
+}
+
+.footer__link:not(:last-child) {
+    margin-right: 55px;
 }
