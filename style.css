@@ -255,6 +255,12 @@ a {
     cursor: pointer;
     font-size: 18px;
     font-weight: bold;
+    transition: 0.5s;
+}
+
+.footer__button:hover {
+    color: black;
+    background-color: white;
 }
 
 .footer__social {
@@ -264,9 +270,26 @@ a {
     margin-top: auto;
 }
 
-.footer__img {
+.footer__link {
+    display: inline-block;
     width: 40px;
     height: 40px;
+}
+
+.footer__pic {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+.footer__img {
+    display: block;
+    object-fit: fill;
+    transition: 0.5s;
+}
+
+.footer__img:hover {
+    transform: scale(1.5);
 }
 
 .footer__link:not(:last-child) {
