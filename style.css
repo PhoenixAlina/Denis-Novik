@@ -237,7 +237,7 @@ a {
 
 .footer__button {
     margin-top: 40px;
-    margin-bottom: 85px;
+    /* margin-bottom: 85px; */
     color: #ffffff;
     background-color: #000000;
     border-radius: 25px;
@@ -262,4 +262,29 @@ a {
 
 .footer__link:not(:last-child) {
     margin-right: 55px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 85px;
+    margin-top: 20px;
+}
+
+.input {
+    width: 100%;
+    border-color: #000000;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    transition: box-shadow .15s linear;
+}
+
+.input:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.input:hover {
+    box-shadow: 0 0  3px 2px gray;
 }
