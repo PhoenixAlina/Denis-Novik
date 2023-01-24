@@ -9,12 +9,6 @@ body {
     font-family: 'Gilroy', sans-serif;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 @font-face {
     font-family: 'Gilroy';
     src: url('Gilroy-Medium.eot');
@@ -30,14 +24,10 @@ body {
     src: url('Gilroy-Bold.eot');
     src: local('Gilroy Bold'), local('Gilroy-Bold'),
         url('fonts/Gilroy-Bold.woff2') format('woff2');
-    font-weight: bold;
+    font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
-
-body {
-    font-family: 'Gilroy', sans-serif;
- }
 
 img {
     max-width: 100%;
@@ -48,10 +38,8 @@ img {
     margin: 0 auto;
 }
 
-
-
 .about__title{
-    width: 123px;
+    width: 124px;
     font-size: 47px;
     line-height: 59px;
 }
@@ -65,7 +53,6 @@ img {
 
 .about__text--lang {
     transform: rotate(180deg);
-    /* align-self: flex-start; */
     writing-mode: vertical-lr;
 }
 .header {
