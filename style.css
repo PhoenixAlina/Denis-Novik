@@ -235,6 +235,15 @@ a {
     color: #828282;
 }
 
+.footer__text--email {
+    margin-bottom: 20px;
+}
+
+.footer__email-link {
+    color: #828282;
+    text-decoration: none;
+}
+
 .footer__button {
     margin-top: 40px;
     /* margin-bottom: 85px; */
@@ -246,7 +255,16 @@ a {
     cursor: pointer;
     font-size: 18px;
     font-weight: bold;
+<<<<<<< HEAD
     transition: box-shadow .2s linear;
+=======
+    transition: 0.5s;
+}
+
+.footer__button:hover {
+    color: black;
+    background-color: white;
+>>>>>>> b6ab216417e8695a7cbe6abbe17255875c15e3b0
 }
 
 .footer__social {
@@ -256,15 +274,33 @@ a {
     margin-top: auto;
 }
 
-.footer__img {
+.footer__link {
+    display: inline-block;
     width: 40px;
     height: 40px;
+}
+
+.footer__pic {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+.footer__img {
+    display: block;
+    object-fit: fill;
+    transition: 0.5s;
+}
+
+.footer__img:hover {
+    transform: scale(1.5);
 }
 
 .footer__link:not(:last-child) {
     margin-right: 55px;
 }
 
+<<<<<<< HEAD
 .form {
     display: flex;
     flex-direction: column;
@@ -289,4 +325,8 @@ a {
 .input:hover,
 .footer__button:hover {
     box-shadow: 0 0 3px 3px gray;
+=======
+.footer__text--social {
+    margin-bottom: 50px;
+>>>>>>> b6ab216417e8695a7cbe6abbe17255875c15e3b0
 }
