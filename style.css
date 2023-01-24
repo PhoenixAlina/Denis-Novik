@@ -246,7 +246,7 @@ a {
 
 .footer__button {
     margin-top: 40px;
-    /* margin-bottom: 85px; */
+    margin-bottom: 85px;
     color: #ffffff;
     background-color: #000000;
     border-radius: 25px;
@@ -296,12 +296,19 @@ a {
     margin-right: 55px;
 }
 
+
 .form {
-    display: flex;
+    position: relative;
+    display: none;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 85px;
+    /* margin-bottom: 85px; */
     margin-top: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0;
+    transition: opacity .3s linear;
 }
 
 .input {
@@ -324,3 +331,55 @@ a {
 .footer__text--social {
     margin-bottom: 50px;
 }
+
+.form-active {
+    display: block;
+    opacity: 1;
+    animation: showBlock .3s linear forwards;
+}
+
+@keyframes showBlock {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.form__closed {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 103%;
+    width: 30px;
+    height: 30px;   
+    cursor: pointer;
+    background-color: #828282;
+    border-radius: 50%;
+    border: none;
+}
+
+.form__closed:hover {
+    background-color: #bfbcbc;
+}
+
+.form__closed::before,
+.form__closed::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    top: 50%;
+    left: 17%;
+}
+
+.form__closed::before {
+    transform: rotate(45deg);
+}
+
+.form__closed::after {
+    transform: rotate(-45deg);
+}
+  
