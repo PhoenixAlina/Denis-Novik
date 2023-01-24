@@ -79,7 +79,7 @@ img {
 }
 
 .skill {
-    padding: 92px 0 110px;
+    padding: 92px 0 114px;
 }
 
 .skill__title {
@@ -109,12 +109,18 @@ img {
     width: 166px;
 }
 
-.program__image {
-    display: block;
+.program__image-wrapper {
     width: 90px;
     height: 89px;
     margin: 0 auto;
     margin-bottom: 19px;
+}
+
+.program__image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
 }
 
 .program__title {
@@ -123,6 +129,7 @@ img {
     line-height: 17px;
     text-align: center;
     color: #828282;
+    width: 90px;
     margin: 0 auto;
     margin-bottom: 35px;
 }
