@@ -9,6 +9,9 @@
     <link rel="preload" href="fonts/Gilroy-Bold.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="fonts/Gilroy-Medium.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="style.css">
+
+    <script defer src="index.js"></script>
+
     <title>Denis Novik</title>
 </head>
 <body>
@@ -136,12 +139,13 @@
     <p class="footer__text">
         You are welcome!
     </p>
-    <form class="form" action="" method="post">
+    <form id="form" class="form" action="" method="post">
         <input class="input" type="text" name="name" id="name" placeholder="name" required>
         <input class="input" type="email" name="email" id="email" placeholder="email" required>
         <textarea class="input" name="Комментарий" id="" cols="30" rows="5" placeholder="your question"></textarea>
-        <button class="footer__button">Send message</button>
+        <button id="footer-closed" class="form__closed"></button>
     </form>
+    <button id="footer-button" class="footer__button">Send message</button>
     <div class="footer__social">
         <a class="footer__link" href="#">
             <picture class="footer__pic">
