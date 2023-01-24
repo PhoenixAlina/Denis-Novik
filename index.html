@@ -23,20 +23,24 @@
         </ul>
     </div>
    </header>
-   <div class="about__me" id="about-me">
-    <div class="about__me__column">
-        <p class="about__me__text">Denis Novik</p>
-        <p class="about__me__text">UX | UI designer<br>
-           24 years old, Minsk</p>
-        <p class="about__me__text">RU | ENG</p>
+   <main>
+   <section class="about__me" id="about-me">
+    <div class="container">
+        <div class="about__column">
+        <h1 class="about__title">Denis Novik</h1>
+        <p class="about__me__text">UX | UI designer 24 years old, Minsk</p>
+        <p class="about__text--lang">RU <span class="about__text--form">| ENG</span></p>
     </div>
-    </div> 
+        <img class="about__me" src="img/background.jpg" width="944" height="388" alt="Denis Novik">
+    </div>
+   </section> 
    <section class="skill" id="skill">
+    <div class="container">
         <h2 class="skill__title">Skills</h2>
         <p class="skill__text">I work in such programs as</p>
         <ul class="skill__list">
             <li class="program">
-                <img class="program__image" src="img/ps.svg" width="90" height="89" alt="Логотип.">
+              <img class="program__image" src="img/ps.svg" width="90" height="89" alt="Логотип">
                 <h3 class="program__title">Adobe<br> Photoshop</h3>
                 <ul class="program__list">
                     <li class="program__star"></li>
@@ -47,7 +51,7 @@
                 </ul>
             </li>
             <li class="program">
-                <img class="program__image" src="img/ai.svg" width="90" height="89" alt="Логотип.">
+                <img class="program__image" src="img/ai.svg" width="90" height="89" alt="Логотип">
                 <h3 class="program__title">Adobe<br> Illustrator</h3>
                 <ul class="program__list">
                     <li class="program__star"></li>
@@ -80,6 +84,7 @@
                 </ul>
             </li>
         </ul>
+    </div>
    </section>
    <section class="portfolio" id="portfolio">
     <div class="container">
@@ -110,8 +115,9 @@
         </div>
     </div>
 </section>
-
+</main>
 <footer id="footer" class="footer">
+    <div class="container">
     <h2 class="footer__header">Contacts</h2>
     <p class="footer__text">
         Want to know more or just chat?
@@ -126,10 +132,13 @@
         <a href="#"><img class="footer__img" src="img/Behance.svg" alt="Behance"></a>
         <a href="#"><img class="footer__img" src="img/Dribble.svg" alt="Dribble"></a>
     </div>
-    <p class="footer__text">
+    <p class="footer__text--small">
         Like me on
-        <br> LinkedIn, Instagram, Behance, Dribble
     </p>
+    <p class="footer__text--small">
+        LinkedIn, Instagram, Behance, Dribble
+    </p>
+</div>
 </footer>
 </body>
 </html>

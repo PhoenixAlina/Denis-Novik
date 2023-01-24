@@ -5,14 +5,9 @@
 }
 
 body {
-    margin: 0;
+    margin: 0 auto;
+    width: 936px;
     font-family: 'Gilroy', sans-serif;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 @font-face {
@@ -35,10 +30,6 @@ body {
     font-display: swap;
 }
 
-body {
-    font-family: 'Gilroy', sans-serif;
- }
-
 img {
     max-width: 100%;
  }
@@ -48,12 +39,17 @@ img {
     margin: 0 auto;
 }
 
-
-
 .about__title{
-    width: 123px;
     font-size: 47px;
-    line-height: 59px;
+    width: 123px;
+}
+
+.about__me__text {
+    width: 155px;
+}
+
+.about__text--form {
+    font-weight: bold;
 }
 
 .about__column{
@@ -142,11 +138,11 @@ img {
 .program__star {
     width: 26px;
     height: 26px;
-    background: url("img/star.svg") no-repeat center center;
+    background: url("../img/star.svg") no-repeat center center;
 }
 
 .program__star--light {
-    background: url("img/star-tr.svg") no-repeat center center;
+    background: url("../img/star-tr.svg") no-repeat center center;
 }
 
 .portfolio {
@@ -219,16 +215,21 @@ a {
 
 .footer__header {
     font-size: 34px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .footer__text {
     font-size: 18px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+}
+
+.footer__text--small {
+    font-size: 15px;
+    color: #828282;
 }
 
 .footer__button {
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 85px;
     color: #ffffff;
     background-color: #000000;
@@ -236,11 +237,13 @@ a {
     width:180.5px;
     height:42px;
     cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .footer__social {
     margin-right: auto;
-    margin-bottom: 46px;
+    margin-bottom: 35px;
     margin-left: auto;
     margin-top: auto;
     display: flex;
