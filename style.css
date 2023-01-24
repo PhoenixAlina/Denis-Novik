@@ -127,7 +127,7 @@ img {
     margin-bottom: 35px;
 }
 
-.program__list {
+.star {
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -135,13 +135,13 @@ img {
     margin-top: auto;
 }
 
-.program__star {
+.star__item {
     width: 26px;
     height: 26px;
     background: url("../img/star.svg") no-repeat center center;
 }
 
-.program__star--light {
+.star__item--light {
     background: url("../img/star-tr.svg") no-repeat center center;
 }
 
