@@ -25,7 +25,7 @@ body {
     src: url('Gilroy-Bold.eot');
     src: local('Gilroy Bold'), local('Gilroy-Bold'),
         url('fonts/Gilroy-Bold.woff2') format('woff2');
-    font-weight: 700;
+    font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
@@ -40,7 +40,6 @@ img {
 }
 
 .about__title{
-    width: 124px;
     font-size: 47px;
     width: 123px;
 }
@@ -62,6 +61,7 @@ img {
 
 .about__text--lang {
     transform: rotate(180deg);
+    /* align-self: flex-start; */
     writing-mode: vertical-lr;
 }
 .header {
@@ -295,7 +295,6 @@ a {
 .footer__link:not(:last-child) {
     margin-right: 55px;
 }
-
 
 .form {
     position: relative;
