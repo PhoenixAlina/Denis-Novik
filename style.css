@@ -46,7 +46,9 @@ img {
 }
 
 .about__me__text {
-    width: 155px;
+    width: 172px;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 .about__text--form {
