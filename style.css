@@ -6,7 +6,6 @@
 
 body {
     margin: 0 auto;
-    width: 936px;
     font-family: 'Gilroy', sans-serif;
 }
 
@@ -25,7 +24,7 @@ body {
     src: url('Gilroy-Bold.eot');
     src: local('Gilroy Bold'), local('Gilroy-Bold'),
         url('fonts/Gilroy-Bold.woff2') format('woff2');
-    font-weight: 700;
+    font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
@@ -34,13 +33,12 @@ img {
     max-width: 100%;
  }
 
- .container {
+.container {
     max-width: 936px;
     margin: 0 auto;
 }
 
 .about__title{
-    width: 124px;
     font-size: 47px;
     width: 123px;
 }
@@ -51,10 +49,6 @@ img {
     line-height: 22px;
 }
 
-.about__text--form {
-    font-weight: bold;
-}
-
 .about__column{
     display: flex;
     justify-content: space-between;
@@ -63,7 +57,10 @@ img {
 }
 
 .about__text--lang {
+    font-size: 16px;
+    line-height: 20px;
     transform: rotate(180deg);
+    /* align-self: flex-start; */
     writing-mode: vertical-lr;
 }
 .header {
@@ -147,11 +144,11 @@ img {
 .star__item {
     width: 26px;
     height: 26px;
-    background: url("../img/star.svg") no-repeat center center;
+    background: url("img/star.svg") no-repeat center center;
 }
 
 .star__item--light {
-    background: url("../img/star-tr.svg") no-repeat center center;
+    background: url("img/star-tr.svg") no-repeat center center;
 }
 
 .portfolio {
@@ -215,6 +212,8 @@ a {
 .footer {
     width: 100%;
     height: auto;
+    background-image: url(img/bg-4.png);
+    text-align: center;
     padding-top: 114px;
     padding-bottom: 114px;
     text-align: center;
@@ -228,8 +227,8 @@ a {
 }
 
 .footer__text {
-    font-size: 30px;
-    margin-bottom: 0px;
+    font-size: 20px;
+    margin-bottom: 0;
 }
 
 .footer__text--small {
@@ -250,10 +249,9 @@ a {
     margin-top: 40px;
     margin-bottom: 85px;
     color: #ffffff;
-    background-color: #000000;
-    border-radius: 25px;
-    width:180.5px;
-    height:42px;
+    background-color: #000;
+    border-radius: 30px;
+    padding: 10px 40px;
     cursor: pointer;
     font-size: 18px;
     font-weight: bold;
@@ -277,27 +275,32 @@ a {
     width: 40px;
     height: 40px;
 }
-
+.footer__link:not(:last-child) {
+    margin-right: 35px;
+}
 .footer__pic {
     display: block;
     width: 40px;
     height: 40px;
 }
-
-.footer__img {
-    display: block;
-    object-fit: fill;
+.footer__img:hover {
+    transform: translateY(-10px);
     transition: 0.5s;
 }
-
-.footer__img:hover {
-    transform: scale(1.5);
+.footer__img {
+    width: 40px;
+    height: 40px;
 }
 
-.footer__link:not(:last-child) {
-    margin-right: 55px;
+.footer__phone {
+    display: flex;
+    padding-top: 20px;
 }
 
+.footer__link--phone {
+    color: #828282;
+    margin-right: 20px;
+}
 
 .form {
     position: relative;
