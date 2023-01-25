@@ -359,7 +359,7 @@ a {
     top: 0;
     left: 103%;
     width: 30px;
-    height: 30px;   
+    height: 30px;
     cursor: pointer;
     background-color: #828282;
     border-radius: 50%;
@@ -388,4 +388,3 @@ a {
 .form__closed::after {
     transform: rotate(-45deg);
 }
-  
