@@ -213,6 +213,7 @@ a {
     width: 100%;
     height: auto;
     background-image: url(img/bg-4.png);
+    background-size: cover;
     text-align: center;
     padding-top: 114px;
     padding-bottom: 114px;
