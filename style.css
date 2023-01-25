@@ -149,11 +149,11 @@ img {
 .star__item {
     width: 26px;
     height: 26px;
-    background: url("../img/star.svg") no-repeat center center;
+    background: url("img/star.svg") no-repeat center center;
 }
 
 .star__item--light {
-    background: url("../img/star-tr.svg") no-repeat center center;
+    background: url("img/star-tr.svg") no-repeat center center;
 }
 
 .portfolio {
