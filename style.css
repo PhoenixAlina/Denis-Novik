@@ -212,6 +212,8 @@ a {
 .footer {
     width: 100%;
     height: auto;
+    background-image: url(img/bg-4.png);
+    text-align: center;
     padding-top: 114px;
     padding-bottom: 114px;
     text-align: center;
@@ -225,8 +227,8 @@ a {
 }
 
 .footer__text {
-    font-size: 30px;
-    margin-bottom: 0px;
+    font-size: 20px;
+    margin-bottom: 0;
 }
 
 .footer__text--small {
