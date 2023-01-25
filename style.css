@@ -6,7 +6,6 @@
 
 body {
     margin: 0 auto;
-    width: 936px;
     font-family: 'Gilroy', sans-serif;
 }
 
@@ -192,6 +191,7 @@ a {
 .footer {
     width: 100%;
     height: auto;
+    background-image: url(img/bg-4.png);
     text-align: center;
     padding-top: 114px;
     padding-bottom: 114px;
@@ -203,7 +203,7 @@ a {
 }
 
 .footer__text {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 0;
 }
 
@@ -216,10 +216,9 @@ a {
     margin-top: 40px;
     margin-bottom: 85px;
     color: #ffffff;
-    background-color: #000000;
-    border-radius: 25px;
-    width:180.5px;
-    height:42px;
+    background-color: #000;
+    border-radius: 30px;
+    padding: 10px 40px;
     cursor: pointer;
     font-size: 18px;
     font-weight: bold;
@@ -234,8 +233,25 @@ a {
     justify-content: space-between;
     width: 343px;
 }
-
+.footer__img:hover {
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
 .footer__img {
     width: 40px;
     height: 40px;
+}
+
+.footer__phone {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__link__phone {
+    display: inline-block;
+    color: #070707;
+    background: url(img/phone.svg) left no-repeat;
+    background-size: 15px;
+    background-position: left;
+    padding-left: 20px;
 }
