@@ -63,6 +63,8 @@ img {
 }
 
 .about__text--lang {
+    font-size: 16px;
+    line-height: 20px;
     transform: rotate(180deg);
     writing-mode: vertical-lr;
 }
