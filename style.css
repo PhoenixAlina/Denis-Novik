@@ -211,7 +211,6 @@ a {
 
 .footer {
     width: 100%;
-    height: auto;
     background-image: url(img/bg-4.png);
     text-align: center;
     padding-top: 114px;
@@ -219,6 +218,7 @@ a {
     text-align: center;
     display: flex;
     justify-content: center;
+    background-size: cover;
 }
 
 .footer__header {
