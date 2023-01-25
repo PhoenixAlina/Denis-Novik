@@ -9,6 +9,9 @@
     <link rel="preload" href="fonts/Gilroy-Bold.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="fonts/Gilroy-Medium.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="style.css">
+
+    <script defer src="index.js"></script>
+
     <title>Denis Novik</title>
 </head>
 <body>
@@ -24,63 +27,76 @@
     </div>
    </header>
    <main>
-   <section class="about__me" id="about-me">
+   <section id="about-me" class="about">
     <div class="container">
         <div class="about__column">
         <h1 class="about__title">Denis Novik</h1>
+<<<<<<< HEAD
         <p class="about__me__text">UX | UI designer 24 years old, Minsk</p>
         <p class="about__text--lang">RU <b>| ENG</b></p>
+=======
+        <p class="about__me__text">UX | UI&nbsp;designer 24&nbsp;years old, Minsk</p>
+        <p class="about__text--lang">RU <span class="about__text--form">| ENG</span></p>
+>>>>>>> ba5f2119b1ba27578147c38761bf06e62e3fc5b3
     </div>
         <img class="about__me" src="img/background.jpg" width="944" height="388" alt="Denis Novik">
     </div>
-   </section> 
+   </section>
    <section class="skill" id="skill">
     <div class="container">
         <h2 class="skill__title">Skills</h2>
         <p class="skill__text">I work in such programs as</p>
         <ul class="skill__list">
             <li class="program">
-              <img class="program__image" src="img/ps.svg" width="90" height="89" alt="Логотип">
-                <h3 class="program__title">Adobe<br> Photoshop</h3>
-                <ul class="program__list">
-                    <li class="program__star"></li>
-                    <li class="program__star"></li>
-                    <li class="program__star"></li>
-                    <li class="program__star"></li>
-                    <li class="program__star program__star--light"></li>
+                <div class="program__image-wrapper">
+                    <img class="program__image" src="img/ps.svg" alt="">
+                </div>
+                <h3 class="program__title">Adobe Photoshop</h3>
+                <ul class="star">
+                    <li class="star__item"></li>
+                    <li class="star__item"></li>
+                    <li class="star__item"></li>
+                    <li class="star__item"></li>
+                    <li class="star__item star__item--light"></li>
                 </ul>
             </li>
             <li class="program">
-                <img class="program__image" src="img/ai.svg" width="90" height="89" alt="Логотип">
-                <h3 class="program__title">Adobe<br> Illustrator</h3>
-                <ul class="program__list">
-                    <li class="program__star"></li>
-                    <li class="program__star"></li>
-                    <li class="program__star"></li>
-                    <li class="program__star program__star--light"></li>
-                    <li class="program__star program__star--light"></li>
+                <div class="program__image-wrapper">
+                    <img class="program__image" src="img/ai.svg" width="90" height="89" alt="">
+                </div>
+                <h3 class="program__title">Adobe Illustrator</h3>
+                <ul class="star">
+                    <li class="star__item"></li>
+                    <li class="star__item"></li>
+                    <li class="star__item"></li>
+                    <li class="star__item star__item--light"></li>
+                    <li class="star__item star__item--light"></li>
                 </ul>
             </li>
             <li class="program">
-                <img class="program__image" src="img/ae.svg" width="90" height="89" alt="Логотип.">
-                <h3 class="program__title">Adobe<br> After Effects</h3>
-                <ul class="program__list">
-                    <li class="program__star"></li>
-                    <li class="program__star"></li>
-                    <li class="program__star"></li>
-                    <li class="program__star"></li>
-                    <li class="program__star program__star--light"></li>
+                <div class="program__image-wrapper">
+                    <img class="program__image" src="img/ae.svg" width="90" height="89" alt="">
+                </div>
+                <h3 class="program__title">Adobe After&nbsp;Effects</h3>
+                <ul class="star">
+                    <li class="star__item"></li>
+                    <li class="star__item"></li>
+                    <li class="star__item"></li>
+                    <li class="star__item"></li>
+                    <li class="star__item star__item--light"></li>
                 </ul>
             </li>
             <li class="program">
-                <img class="program__image" src="img/figma.svg" width="59" height="89" alt="Логотип.">
+                <div class="program__image-wrapper">
+                    <img class="program__image" src="img/figma.svg" width="59" height="89" alt="">
+                </div>
                 <h3 class="program__title">Figma</h3>
-                <ul class="program__list">
-                    <li class="program__star"></li>
-                    <li class="program__star"></li>
-                    <li class="program__star"></li>
-                    <li class="program__star"></li>
-                    <li class="program__star program__star--light"></li>
+                <ul class="star">
+                    <li class="star__item"></li>
+                    <li class="star__item"></li>
+                    <li class="star__item"></li>
+                    <li class="star__item"></li>
+                    <li class="star__item star__item--light"></li>
                 </ul>
             </li>
         </ul>
@@ -90,16 +106,28 @@
     <div class="container">
         <h2 class="title">Portfolio</h2>
         <div class="portfolio__card">
-           <img class="portfolio__img" src="img/portfolio-newCollection.png" alt="">
-           <a class="portfolio__link" href="#">Online fashion store - Homepage</a>
+            <picture class="portfolio__picture">
+                <img class="portfolio__img" src="img/portfolio-newCollection.png" alt="">
+            </picture>
+           <h4 class="portfolio__item-title">
+                <a class="portfolio__link" href="#">Online fashion store - Homepage</a>
+            </h4>
         </div>
         <div class="portfolio__card">
-           <img class="portfolio__img" src="img/portfolio-reebok.jpg" alt="">
-           <a class="portfolio__link" href="#">Reebok Store - Concept</a>
+            <picture class="portfolio__picture">
+                <img class="portfolio__img" src="img/portfolio-reebok.jpg" alt="">
+            </picture>
+           <h4 class="portfolio__item-title">
+                <a class="portfolio__link" href="#">Reebok Store - Concept</a>
+            </h4>
         </div>
         <div class="portfolio__card">
-           <img class="portfolio__img" src="img/portfolio-braun.jpg" alt="">
-           <a class="portfolio__link" href="#">Braun Landing Page - Concept</a>
+            <picture class="portfolio__picture">
+                <img class="portfolio__img" src="img/portfolio-braun.jpg" alt="">
+            </picture>
+           <h4 class="portfolio__item-title">
+                <a class="portfolio__link" href="#">Braun Landing Page - Concept</a>
+            </h4>
         </div>
     </div>
 </section>
@@ -107,22 +135,49 @@
 <footer id="footer" class="footer">
     <div class="container">
     <h2 class="footer__header">Contacts</h2>
+    <p class="footer__text footer__text--email">
+        <a class="footer__email-link" href="#">DenisNovik@gmail.com</a>
+    </p>
     <p class="footer__text">
         Want to know more or just chat?
     </p>
     <p class="footer__text">
         You are welcome!
     </p>
-    <button class="footer__button">Send message</button>
+    <form id="form" class="form" action="" method="post">
+        <input class="input" type="text" name="name" id="name" placeholder="name" required>
+        <input class="input" type="email" name="email" id="email" placeholder="email" required>
+        <textarea class="input" name="Комментарий" id="" cols="30" rows="5" placeholder="your question" required></textarea>
+        <div id="footer-closed" class="form__closed"></div>
+        <button type="submit" id="form-button" class="footer__button">Send</button>
+    </form>
+    <button id="footer-button" class="footer__button">Send message</button>
     <div class="footer__social">
-        <a href="#"><img class="footer__img" src="img/LinkedIn.svg" alt="LinkedIn"></a>
-        <a href="#"><img class="footer__img" src="img/Instagram.svg" alt="Instagram"></a>
-        <a href="#"><img class="footer__img" src="img/Behance.svg" alt="Behance"></a>
-        <a href="#"><img class="footer__img" src="img/Dribble.svg" alt="Dribble"></a>
+        <a class="footer__link" href="#">
+            <picture class="footer__pic">
+                <img class="footer__img" src="img/linkedIn.svg" alt="LinkedIn">
+            </picture>
+        </a>
+        <a class="footer__link" href="#">
+            <picture class="footer__pic">
+                <img class="footer__img" src="img/instagram.svg" alt="instagram">
+            </picture>
+        </a>
+        <a class="footer__link" href="#">
+            <picture class="footer__pic">
+                <img class="footer__img" src="img/behance.svg" alt="Behance">
+            </picture>
+        </a>
+        <a class="footer__link" href="#">
+            <picture class="footer__pic">
+                <img class="footer__img" src="img/dribble.svg" alt="Dribble">
+            </picture>
+        </a>
     </div>
     <p class="footer__text--small">
         Like me on
     </p>
+<<<<<<< HEAD
     <p class="footer__text--small">
          LinkedIn, Instagram, Behance, Dribble
     </p>
@@ -130,6 +185,12 @@
         <a href="tel: +79995550690" class="footer__link__phone">+79995550690</a>
         <p class="footer__text footer__text--small">copyright</p>
     </div>
+=======
+    <p class="footer__text--small footer__text--social">
+        LinkedIn, Instagram, Behance, Dribble
+    </p>
+    <p class="footer__text footer__text--small">Design and content © 2023 Denis Novik</p>
+>>>>>>> ba5f2119b1ba27578147c38761bf06e62e3fc5b3
 </div>
 </footer>
 </body>

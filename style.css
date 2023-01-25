@@ -24,7 +24,7 @@ body {
     src: url('Gilroy-Bold.eot');
     src: local('Gilroy Bold'), local('Gilroy-Bold'),
         url('fonts/Gilroy-Bold.woff2') format('woff2');
-    font-weight: bold;
+    font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
@@ -39,12 +39,15 @@ img {
 }
 
 .about__title{
+    width: 124px;
     font-size: 47px;
     width: 123px;
 }
 
 .about__me__text {
-    width: 155px;
+    width: 172px;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 .about__column{
@@ -55,13 +58,14 @@ img {
 }
 
 .about__text--lang {
+    font-size: 16px;
+    line-height: 20px;
     transform: rotate(180deg);
-    /* align-self: flex-start; */
     writing-mode: vertical-lr;
 }
 .header {
     padding-top: 30px;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
 }
 
 .header__list {
@@ -74,7 +78,7 @@ img {
 }
 
 .skill {
-    padding: 92px 0 110px;
+    padding: 92px 0 114px;
 }
 
 .skill__title {
@@ -104,12 +108,18 @@ img {
     width: 166px;
 }
 
-.program__image {
-    display: block;
+.program__image-wrapper {
     width: 90px;
     height: 89px;
     margin: 0 auto;
     margin-bottom: 19px;
+}
+
+.program__image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
 }
 
 .program__title {
@@ -118,11 +128,12 @@ img {
     line-height: 17px;
     text-align: center;
     color: #828282;
+    width: 90px;
     margin: 0 auto;
     margin-bottom: 35px;
 }
 
-.program__list {
+.star {
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -130,13 +141,13 @@ img {
     margin-top: auto;
 }
 
-.program__star {
+.star__item {
     width: 26px;
     height: 26px;
     background: url("img/star.svg") no-repeat center center;
 }
 
-.program__star--light {
+.star__item--light {
     background: url("img/star-tr.svg") no-repeat center center;
 }
 
@@ -156,12 +167,16 @@ img {
     margin-bottom: 103px;
 }
 
-.portfolio__link {
-    display: block;
+.portfolio__item-title {
     font-size: 18px;
     line-height: 22px;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.portfolio__link {
     color: #070707;
-    text-align: center;
+    text-decoration: underline;
 }
 
 .header__item {
@@ -170,6 +185,12 @@ img {
 
 a {
     text-decoration: none;
+}
+
+.header__link {
+    font-weight: normal;
+    color: #828282;
+    font-size: 18px;
 }
 
 .header__link {
@@ -195,6 +216,9 @@ a {
     text-align: center;
     padding-top: 114px;
     padding-bottom: 114px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .footer__header {
@@ -212,6 +236,15 @@ a {
     color: #828282;
 }
 
+.footer__text--email {
+    margin-bottom: 20px;
+}
+
+.footer__email-link {
+    color: #828282;
+    text-decoration: none;
+}
+
 .footer__button {
     margin-top: 40px;
     margin-bottom: 85px;
@@ -222,6 +255,12 @@ a {
     cursor: pointer;
     font-size: 18px;
     font-weight: bold;
+    transition: 0.5s;
+}
+
+.footer__button:hover {
+    color: black;
+    background-color: white;
 }
 
 .footer__social {
@@ -229,9 +268,18 @@ a {
     margin-bottom: 35px;
     margin-left: auto;
     margin-top: auto;
-    display: flex;
-    justify-content: space-between;
-    width: 343px;
+}
+
+.footer__link {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.footer__pic {
+    display: block;
+    width: 40px;
+    height: 40px;
 }
 .footer__img:hover {
     transform: translateY(-10px);
