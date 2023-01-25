@@ -340,6 +340,10 @@ a {
     animation: showBlock .3s linear forwards;
 }
 
+.button-remove {
+    display: none;
+}
+
 @keyframes showBlock {
     0% {
         transform: scale(0);
